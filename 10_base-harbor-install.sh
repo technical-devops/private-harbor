@@ -1,7 +1,5 @@
 HarborInstallDir=${PWS}
 HarborLogDir="/app/harbor/log"
-echo "===> 11. Harbor Base Install"
-echo "#############################"
 
 if [ ! -d ${HarborLogDir} ]; then
     sudo  mkdir -p ${HarborLogDir}
